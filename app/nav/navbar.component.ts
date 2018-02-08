@@ -9,6 +9,6 @@ import { Component } from '@angular/core'
 @media (max-width:1200px){#searchForm {display:none}}
     `]
 })
-export class NavBarComponent{
+export class NavBarComponent {
 
 }

@@ -1,8 +1,7 @@
 import {Component, OnInit} from '@angular/core'
-import { EventService } from '../shared/event.service';
+import { EventService } from './shared/event.service';
 
 @Component({
-    selector: 'events-list',
     template: `
     <div>
     <h1>Upcoming Angular 2 Events </h1>
@@ -16,7 +15,7 @@ import { EventService } from '../shared/event.service';
     `
 })
 
-export class EventListComponent implements OnInit{
+export class EventsListComponent implements OnInit{
   events: any[]
 
  constructor(private eventService: EventService){
